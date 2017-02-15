@@ -6,6 +6,24 @@ body {
 h1 {
     margin-top: 48px;
     margin-bottom: 1.5em;
+    font-size: 40px;
+    font-family: "Spoqa Han Sans";
+    line-height: 1.5;
+    letter-spacing: -0.005em;
+    color: #7b2bff
+}
+h2 {
+    margin-top: 48px;
+    margin-bottom: 1.5em;
+    font-size: 38px;
+    font-family: "Spoqa Han Sans";
+    line-height: 1.5;
+    letter-spacing: -0.005em;
+    color: #7b2bff
+}
+h3 {
+    margin-top: 48px;
+    margin-bottom: 1.5em;
     font-size: 32px;
     font-family: "Spoqa Han Sans";
     line-height: 1.5;
