@@ -4,7 +4,8 @@ body {
     background-image: url("../images/leading-24px.png");
 }
 h1 {
-    margin-top: 38px;
+    padding-top: 38px;
+    margin-top: 0;
     margin-bottom: 1.5em;
     font-size: 36px;
     font-family: "Spoqa Han Sans";
