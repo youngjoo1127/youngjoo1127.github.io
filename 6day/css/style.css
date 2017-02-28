@@ -23,19 +23,6 @@ html{
      color: #333741;
  }
 
-header {
-    margin-top: 8.4rem;
-    text-align: center;
-} 
-main {
-    margin-top: 4.2rem;
-}
-footer{
-    margin-top: 2.1rem;
-    margin-bottom: 6.3rem;
-    text-align: right;
-}
-
 /* 제목/단락 공통 디자인 */
  h1,h2,h3,h4,h5,h6,p{
      /*속기형 - margin: top right bottom left; */
@@ -100,13 +87,14 @@ a[href]{
 }
 
 /*상태디자인
-    기본 상태 (Nomal State, :link)
-    방문한 상태 (Visited State, :visited)
-    마우스가 올라간 상태 (Hover State, :hover)
-    클릭한(활성) 상태 (:active)
-    비활성 상태 ()
-    포커스 상태 ()
+ +   기본 상태 (Normal State, :link)
+ +   방문한 상태 (Visited State, :visited)
+ +   마우스가 올라간 상태 (Hover State, :hover)
+ +   클릭한(활성) 상태 (Active State, :active)
+ +   포커스 상태 (Focus State, :focus)
+ +   비활성 상태 (Deactive State)
 */
+
 a[href]:hover{
 color: #227e92;
 text-decoration: underline;
@@ -125,4 +113,21 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+header {
+    /* 높이값은 고정이기 때문에 px설정을 선호
+    margin-top: 8.4rem;
+    사용도 가능하다. */
+    margin-top: 84px;
+    text-align: center;
+} 
+main {
+    margin-top: 42px;
+}
+footer{
+    margin-top: 21px;
+    margin-bottom: 63px;
+    text-align: right;
+}
+
 
