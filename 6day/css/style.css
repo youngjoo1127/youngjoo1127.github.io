@@ -12,7 +12,7 @@ html{
      min-height: 100vh;
      margin: 0;
      /* 바디 요소의 배경 이미지 (leading 21px) 설정 */
-     /*background-image: url("../images/leading-21px.png");*/
+     background-image: url("../images/leading-21px.png");
      /*본문 디자인 (상속)*/
      /* 속기형 - font: [두께] [응용] [기울기] 크기[/행간] 글꼴;*/
      font: 1.4rem/1.5 "Spoqa Han Sans";
@@ -22,9 +22,9 @@ html{
      letter-spacing: -0.02em;
      color: #333741;
  }
- body:hover{
-     background: url("../images/leading-21.png");
- }
+    body:hover {
+    background: url("../images/leading-21.png");
+    }
 
 /* 제목/단락 공통 디자인 */
  h1,h2,h3,h4,h5,h6,p{
