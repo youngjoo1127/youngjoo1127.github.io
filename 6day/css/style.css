@@ -12,7 +12,7 @@ html{
      min-height: 100vh;
      margin: 0;
      /* 바디 요소의 배경 이미지 (leading 21px) 설정 */
-     background-image: url("../images/leading-21px.png");
+     /*background-image: url("../images/leading-21px.png");*/
      /*본문 디자인 (상속)*/
      /* 속기형 - font: [두께] [응용] [기울기] 크기[/행간] 글꼴;*/
      font: 1.4rem/1.5 "Spoqa Han Sans";
@@ -21,6 +21,9 @@ html{
      /*line-height: 1.5;  CSS는 상속이라는 매커니즘을 사용하다 보니 단위를 붙이면 버그가 발생*/
      letter-spacing: -0.02em;
      color: #333741;
+ }
+ body:hover{
+     background: url("../images/leading-21.png");
  }
 
 /* 제목/단락 공통 디자인 */
@@ -63,7 +66,7 @@ h1{
  }
 
  /* 목록 공통 디자인 */
-ul,ol{
+ul,ol,dl{
     /*웹 브라우저 기본 스타일 (User Agent Style)제거*/
     margin-top: 0;
     margin-bottom: 0;
@@ -78,6 +81,25 @@ ol{}
  /* 목록 항목(아이템) 디자인 */
 li{
     margin-bottom: 4.2rem;
+}
+
+/* 정의 목록 디자인 */
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 4.2rem;
+}
+dt {
+  margin-top: 2.1rem;
+  margin-bottom: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #2b2c2f;
+}
+dd {
+  margin-left: 0;
+  letter-spacing: -0.02em;
+  color: #333741;
 }
 
 /*하이퍼링크디자인*/
